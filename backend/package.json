@@ -10,7 +10,9 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@prisma/client": "^5.16.1",
     "express": "github:types/express",
+    "prisma": "^5.16.1",
     "typescript": "^5.5.3"
   }
 }

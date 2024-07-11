@@ -2,6 +2,8 @@ import express from "express";
 import userRouter from "./routers/user"
 import workerRouter from "./routers/worker"
 
+export const JWT_SECRET = "zach123";
+
 const app = express();
 
 app.use(express.json());

@@ -33,8 +33,8 @@ All user-uploaded data is securely stored in AWS S3. The application generates p
 ## Setup and Installation
 1. **Clone the Repository**
    ```sh
-   git clone https://github.com/yourusername/web3-saas-data-labeling.git
-   cd web3-saas-data-labeling
+   git clone https://github.com/zacharias1219/decentralized-fiver.git
+   cd decentralized-fiver
    ```
 
 2. **Install Dependencies**

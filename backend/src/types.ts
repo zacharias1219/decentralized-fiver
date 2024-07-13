@@ -1,10 +1,14 @@
-import { SignatureKind } from "typescript";
 import z from "zod";
 
-const createTaskInput = z.object({
+export const createTaskInput = z.object({
     options: z.array(z.object({
-        imageUrl: z.string(),
-    })),
+        imageUrl: z.string()
+    })).min(2),
     title: z.string().optional(),
-    Signature: z.string()
-})
+    signature: z.string()
+});
+
+export const createSubmissionInput = z.object({
+    taskId: z.string(),
+    selection: z.string(),
+});

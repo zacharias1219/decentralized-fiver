@@ -1,7 +1,7 @@
 # Web3 SAAS Data Labeling Platform
 
 ## Overview
-This project demonstrates the creation of a full-stack Web3 SAAS application in 6 hours. The application leverages Solana blockchain and Web3.js to build a data labeling platform where users can post data for labeling, typically by individuals in developing nations, and facilitate micro-payments using cryptocurrency. 
+This project demonstrates the creation of a full-stack Web3 SAAS application. The application leverages Solana blockchain and Web3.js to build a data labeling platform where users can post data for labeling, typically by individuals in developing nations, and facilitate micro-payments using cryptocurrency. 
 
 ## Features
 - **Data Labeling Platform:** Allows users to upload data that needs to be labeled and pays workers for labeling this data.
